@@ -1,0 +1,101 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+header {
+    height: 95px;
+}
+
+footer {
+    height: 30px;
+}
+
+header, footer {
+    background-image: url("gradient-red.jpg");
+    background-color: rgba(1,1,1,0.5);
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    z-index: 10;
+    width: 100%;
+    margin: 0px;
+    border-bottom: rgba(0,0,0,0.5);
+}
+
+.header-left {
+    float: left;
+    margin: 0px 30px;
+    font-size: 24px;
+    padding: 0px 20px;
+    background-color: #ffbf00;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-right {
+    float: right;
+    margin: 40px 20px 0px 20px;
+}
+
+.header-right a {
+    padding: 15px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header-right a:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffbf00;
+}
+
+main {
+    width: 100%%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+}
+
+.con-title h1 {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0px;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.con-title h1:hover {
+    color: #ffbf00;
+}
+
+footer {
+    text-align: center;
+    padding-top: 17px;
+    color:  rgba(255, 255, 255, 0.5);
+}
